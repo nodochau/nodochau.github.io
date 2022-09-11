@@ -11,7 +11,7 @@ h4{
   font-size: 3rem;
 }
 h5{
-  color: rgb(8, 87, 113);
+  color: rgb(4, 60, 78);
   font-size: 4rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
@@ -75,11 +75,10 @@ h1{
 #pricing{
   padding: 7% 5%;
   text-align: center;
-  background-color: blanchedalmond;
-  background-image: url("../images/lotus3.jpg");
-  background-blend-mode:color-burn;
+  background-color:rgb(240, 187, 214);
+  background-image: url("../images/watermark.jpg");
+  background-blend-mode:darken;
 }
-
 
 .pricing-img{
   width: 20%;
