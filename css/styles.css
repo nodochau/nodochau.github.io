@@ -1,0 +1,91 @@
+
+h1, h2, h3, h4{
+  font-family: "Kaushan Script";
+}
+h3{
+  color:deeppink;
+  font-weight: 600;
+}
+h5{
+  color: rgb(8, 87, 113);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 700;
+}
+h6 {
+  font-family: "Montserrat";
+  font-style: italic;
+}
+p{
+  font-style: italic;
+  font-weight:500;
+}
+/* title section */
+#title { 
+  background-color: #8db0db;
+  color: aliceblue;
+  padding: 3% 15%;
+}
+
+.navbar-item{
+  font-family: "Ubuntu";
+  font-size: 1.1rem;
+  padding-right: 20px;
+  
+}
+.title-image{
+  width: 70%;
+  border-radius: 100%;
+  margin-left: 11rem;
+}
+
+h1{
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.title-des{
+  padding: 7% 0;
+}
+@media (max-width: 976px){
+  .title-image{
+    width: 50%;
+    border-radius: 100%;
+    margin: auto;
+  }
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 7% 5%;
+  text-align: center;
+  background-color: blanchedalmond;
+  background-image: url("../images/watermark.jpg");
+  background-blend-mode:lighten;
+}
+
+
+.pricing-img{
+  width: 20%;
+  border-radius: 100%;
+  padding: 3%;
+}
+.price-description{
+  padding-bottom: 2%;
+  color: blueviolet;
+}
+
+.addition-ser{
+  /* padding-left: 15%;
+  padding-right: 15%; */
+  margin: 0 20%;
+}
+/* footer section */
+#footer{
+  text-align: center;
+  padding: 5% 20%;
+}
+.footer-logo{
+  padding: 1% 1.5%;
+}
