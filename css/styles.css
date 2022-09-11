@@ -5,9 +5,11 @@ h1, h2, h3, h4{
 h3{
   color:deeppink;
   font-weight: 600;
+  font-size: 5rem;
 }
 h5{
   color: rgb(8, 87, 113);
+  font-size: 4rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   font-weight: 700;
@@ -17,6 +19,7 @@ h6 {
   font-style: italic;
 }
 p{
+  font-size: 3rem;
   font-style: italic;
   font-weight:500;
 }
