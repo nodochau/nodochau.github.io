@@ -47,7 +47,7 @@ p{
   
 }
 a{
-  color:darkmagenta;
+  text-decoration: none;
 }
 /* .title-image{
   border: 0;
@@ -68,11 +68,10 @@ a{
       opacity: 1;
   }
 }
-.click-on-me {
+.price-description {
   animation: blink 2s;
   animation-iteration-count: infinite;
-  padding-left: 20%;
-  padding-top: 5%;
+  font-size: 5rem;
 }
 
 h1{
