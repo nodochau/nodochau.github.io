@@ -86,8 +86,8 @@ h1{
   padding: 7% 5%;
   text-align: center;
   background-color:rgb(240, 187, 214);
-  background-image: url("../images/lotus3.jpg");
-  background-size: contain;
+  background-image: url("../images/lotus4.jpg");
+  background-size:cover;
   background-blend-mode:lighten;
 }
 
