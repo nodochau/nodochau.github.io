@@ -33,7 +33,7 @@ p{
   background-image: url("../images/lotus1.jpg");
   background-size:80%;
   color:darkmagenta;
-  padding: 3% 15%;
+  padding: 3% 12%;
 }
 
 .navbar-brand{
@@ -46,14 +46,33 @@ p{
   font-size: 1.3rem;
   
 }
-.color-me{
-  color:aliceblue;
+a{
+  color:darkmagenta;
 }
-.title-image{
+/* .title-image{
   border: 0;
   width: 70%;
   border-radius: 100%;
-  margin-left: 11rem;
+  margin-left: 5rem;
+
+} */
+
+@keyframes blink {
+  0% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+.click-on-me {
+  animation: blink 2s;
+  animation-iteration-count: infinite;
+  padding-left: 20%;
+  padding-top: 5%;
 }
 
 h1{
