@@ -23,7 +23,7 @@ h6 {
   font-size: 2rem;
 }
 p{
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-style: italic;
   font-weight:500;
 }
@@ -37,8 +37,14 @@ p{
 }
 
 .navbar-brand{
-  font-size: 2.5rem;
+  font-size: 3rem;
   color:aliceblue;
+  font-weight: 600;
+}
+
+.contact-about{
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 .navbar-item{
   font-family: "Ubuntu";
@@ -49,14 +55,8 @@ p{
 a{
   text-decoration: none;
 }
-/* .title-image{
-  border: 0;
-  width: 70%;
-  border-radius: 100%;
-  margin-left: 5rem;
 
-} */
-
+/* blinking */
 @keyframes blink {
   0% {
       opacity: 1;
